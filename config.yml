@@ -1,0 +1,115 @@
+# ==============================
+# 🌐 CyberTrinity Portfolio Config
+# ==============================
+
+profile:
+  name: "Joel"
+  title: "IT Specialist | Cybersecurity | Data Analytics | IoT"
+  email: "your-email@example.com"
+  linkedin: "https://linkedin.com/in/yourprofile"
+  github: "https://github.com/yourusername"
+  about: >
+    I’m an aspiring IT specialist passionate about integrating IoT, Data Analytics,
+    and Cybersecurity to build smart and secure systems that promote sustainability
+    and innovation.
+
+# ==============================
+# 🛡️ Cybersecurity Section
+# ==============================
+cybersecurity:
+  focus_areas:
+    - Network Security & Penetration Testing
+    - Vulnerability Assessment & Threat Detection
+    - Secure IoT System Design
+    - Capture the Flag (CTF) Participation
+  projects:
+    - name: "IoT Security Monitoring System"
+      description: "Detects unauthorized access to connected devices using packet inspection."
+      tools: ["Wireshark", "Python", "ESP8266"]
+    - name: "Great AppSec Hackathon 2024"
+      description: "Qualified in the CTF screening round; focused on exploit analysis."
+      tools: ["Kali Linux", "Burp Suite"]
+    - name: "Cyber Defense Simulation"
+      description: "Built a mini SOC model using open-source cybersecurity tools."
+      tools: ["ELK Stack", "Suricata"]
+
+# ==============================
+# 📊 Data Analytics Section
+# ==============================
+data_analytics:
+  focus_areas:
+    - Python for Data Analysis & Visualization
+    - Machine Learning & Predictive Analytics
+    - Data Cleaning & Exploratory Analysis
+  projects:
+    - name: "Netflix Data Analysis"
+      description: "Explored viewing trends and recommendation patterns."
+      tools: ["Python", "Pandas", "Matplotlib"]
+    - name: "Crime Analysis in Los Angeles"
+      description: "Identified crime hotspots using geospatial analytics."
+      tools: ["Python", "Seaborn", "Folium"]
+    - name: "AWSome Day Data Insights"
+      description: "Applied AWS tools for analytics and visualization."
+      tools: ["AWS", "QuickSight"]
+
+# ==============================
+# 🌐 IoT Section
+# ==============================
+iot:
+  focus_areas:
+    - Smart Environment & Automation Systems
+    - Real-time Monitoring & Edge Computing
+    - Data Communication Protocols
+  projects:
+    - name: "Smart Water Monitoring System"
+      description: "Tracks water quality and usage in real time."
+      tools: ["Arduino", "Sensors", "ThingSpeak"]
+    - name: "Automatic Robot Car"
+      description: "Designed an obstacle-avoiding robot using ultrasonic sensors."
+      tools: ["Arduino", "C++", "Motor Driver"]
+    - name: "Gas Detection System"
+      description: "Built an IoT-based safety alert mechanism."
+      tools: ["MQ2 Sensor", "NodeMCU", "Python"]
+
+# ==============================
+# 🧩 Tech Stack
+# ==============================
+tech_stack:
+  languages: ["Python", "C", "C++", "HTML", "CSS", "JavaScript"]
+  platforms: ["Linux", "Raspberry Pi", "AWS", "Arduino"]
+  data_tools: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter"]
+  cyber_tools: ["Nmap", "Burp Suite", "Metasploit", "Wireshark", "Kali Linux"]
+
+# ==============================
+# 🎓 Certifications
+# ==============================
+certifications:
+  - title: "CCNA: Introduction to Networks"
+    provider: "Cisco"
+    year: 2021
+  - title: "Data Analyst with Python"
+    provider: "DataCamp"
+    year: 2024
+  - title: "AWSome Day Online Conference"
+    provider: "Amazon Web Services"
+    year: 2024
+  - title: "Gold Level Achievement - Accenture iAspire Program"
+  - title: "CTF Qualifier - Great AppSec Hackathon 2024"
+
+# ==============================
+# 🏆 Achievements
+# ==============================
+achievements:
+  - "1st Prize – Techno-Cultural Fashion Show"
+  - "Executive Member – FISAB"
+  - "Core Member – Zigbee Student Club"
+  - "Gold Level – Accenture iAspire Program"
+
+# ==============================
+# ⚙️ Display Options (optional)
+# ==============================
+display:
+  theme: "dark"
+  show_badges: true
+  show_project_links: true
+  show_stats: true
