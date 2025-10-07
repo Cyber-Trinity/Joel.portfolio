@@ -1,7 +1,7 @@
-# 💻 CyberTrinity Portfolio
+# 💻 Yaovi Joel DJATASSIBA
 
 ### 🚀 Overview
-Welcome to **CyberTrinity**, my unified tech portfolio that brings together my passion for **Cybersecurity**, **Data Analytics**, and the **Internet of Things (IoT)**.
+Welcome to my unified tech portfolio that brings together my passion for **Cybersecurity**, **Data Analytics**, and the **Internet of Things (IoT)**.
 
 This portfolio highlights how I combine these three domains to create **secure**, **data-driven**, and **intelligent systems** that address real-world challenges.
 
@@ -16,8 +16,7 @@ This portfolio highlights how I combine these three domains to create **secure**
 
 **Highlighted Projects:**
 - 🔒 **IoT Security Monitoring System** – Detects unauthorized access to connected devices using packet inspection.  
-- 🕵️ **Great AppSec Hackathon 2024** – Qualified in the CTF screening round.  
-- 🧠 **Cyber Defense Simulation** – Built a mini SOC (Security Operations Center) using open-source tools.  
+- 🕵️ **Great AppSec Hackathon 2024** – Qualified in the CTF screening round.   
 
 ---
 
@@ -30,7 +29,6 @@ This portfolio highlights how I combine these three domains to create **secure**
 **Highlighted Projects:**
 - 🎬 **Netflix Data Analysis** – Explored viewing trends and recommendation patterns.  
 - 🏙️ **Crime Analysis in Los Angeles** – Identified hotspots and correlations using geospatial analytics.  
-- 📈 **AWSome Day Data Insights** – Applied AWS tools for cloud-based analytics and visualization.  
 
 ---
 
@@ -49,7 +47,7 @@ This portfolio highlights how I combine these three domains to create **secure**
 
 ## 🧩 Tech Stack
 **Languages & Tools:**  
-`Python` · `C` · `C++` · `Linux` · `Arduino` · `Raspberry Pi` · `AWS` · `Cisco Packet Tracer` · `Wireshark`  
+`Python` · `C` · `C++` · `Linux` · `Arduino` · `AWS` · `Cisco Packet Tracer` · `Wireshark`  
 
 **Data Tools:**  
 `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Jupyter`  
@@ -77,9 +75,9 @@ Hi, I’m **Joel**, an aspiring IT specialist passionate about integrating **IoT
 ---
 
 ## 🔗 Connect with Me
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](#)  
-- 🧠 GitHub: [github.com/yourusername](#)  
+- 📧 Email: (mailto:your-email@example.com)  
+- 💼 LinkedIn: 
+- 🧠 GitHub:   
 
 ---
 
