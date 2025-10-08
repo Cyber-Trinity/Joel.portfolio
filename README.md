@@ -76,8 +76,8 @@ Hi, I’m **Joel**, an aspiring IT specialist passionate about integrating **IoT
 
 ## 🔗 Connect with Me
 - 📧 Email:   
-- 💼 LinkedIn: 
-- 🧠 GitHub:   
+- 💼 LinkedIn: https://www.linkedin.com/in/joeldjatassiba/
+- 🧠 GitHub:   https://github.com/Cyber-Trinity
 
 ---
 
