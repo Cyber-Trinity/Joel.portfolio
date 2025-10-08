@@ -75,7 +75,7 @@ Hi, I’m **Joel**, an aspiring IT specialist passionate about integrating **IoT
 ---
 
 ## 🔗 Connect with Me
-- 📧 Email: (mailto:your-email@example.com)  
+- 📧 Email:   
 - 💼 LinkedIn: 
 - 🧠 GitHub:   
 
