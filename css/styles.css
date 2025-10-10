@@ -550,7 +550,7 @@ input[type='checkbox'] {
 
 .navbar .fa-stack {
 	width: 2em;
-	margin-right: 0.25rem;
+	margin-right: 0.2rem;
 	font-size: 1.2rem;
 	font-weight: lighter;
 }
@@ -589,27 +589,48 @@ input[type='checkbox'] {
 	text-align: center;
 
 /* Desktop version of header background image */
-	background:
-		linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		url('../images/header-background.jpg');
-	background-position: right center;
+	height: 100vh;
+	/* full visible screen */
+	background-image: url('../images/header-background.jpg');
 	background-size: cover;
+	/* ensure image covers entire area */
+	background-position: top right;
+	/* adjust focus */
 	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	/* vertically center by default */
+	padding: 0 2rem;
+	/* optional horizontal padding */
 }
 
-/* 🌐 Mobile version: shift focus slightly left */
-@media (max-width: 800px) {
+/* 🌐 Mobile version */
+@media (max-width: 990px) {
 	.header {
+		height: 100vh;
+		/* full screen */
 		background-position: 80% top;
+		/* shift focus slightly left on mobile */
+		display: flex;
+		align-items: flex-end;
+		/* place hero text at bottom */
+		padding-bottom: 2rem;
+		/* space below text */
 	}
 
 	.text-container .h1-large {
 		font-size: 1.8rem;
-		/* smaller size for mobile */
 		line-height: 1.3;
+		text-align: center;
+	}
+
+	.text-container .btn-solid-lg {
+		display: inline-block;
+		margin: 0.5rem auto;
 	}
 
 }
+
 
 .header .h1-large {
 	margin-bottom: 1.75rem;
