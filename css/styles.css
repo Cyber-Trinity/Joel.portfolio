@@ -632,19 +632,18 @@ input[type='checkbox'] {
 /* Small screens: bias the image to show more of the top/center (prevents cutting off head) */
 @media (max-width: 768px) {
 	.header {
-		background-position: center right/60% top;
-		/* optionally swap to a mobile-optimized image if you add one at images/header-background-mobile.jpg */
-		/* background-image: url('../images/header-background-mobile.jpg'); */
-
-/* increase a bit on wide screens for impact */
-@media (min-width: 1400px) {
-    .navbar .logo-image .brand-text {
-        font-size: 2.0rem;
-    }
-}
+		background-position: center top;
+		/* swap to a mobile-optimized image */
+		background-image: url('../images/header-background-mobile.jpg');
 	}
 }
 
+/* increase a bit on wide screens for impact */
+@media (min-width: 1400px) {
+	.navbar .logo-image .brand-text {
+		font-size: 2.0rem;
+	}
+}
 
 /*****************/
 /*     About     */
