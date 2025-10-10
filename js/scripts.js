@@ -227,7 +227,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     const message = document.getElementById("cmessage").value;
 
     // Create mailto link
-    const mailtoLink = `mailto:youremail@example.com?subject=${encodeURIComponent("Message from " + name)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
+    const mailtoLink = `mailto:jdjatassiba@gmail.com?subject=${encodeURIComponent("Message from " + name)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
 
     // Open default email client
     window.location.href = mailtoLink;
