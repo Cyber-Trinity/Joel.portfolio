@@ -55,7 +55,7 @@ My portfolio highlights how I combine these three domains to create **secure**, 
 **Cyber Tools:**  
 `Nmap` · `Burp Suite` · `Metasploit`· `Wireshark` · `Cisco Packet Tracer`· `Kali Linux`
 
-**Embedded Systems Tools:**
+**Embedded Systems Tools:** 
 `Arduino` · `ESP32 / ESP8266` · `MQTT` · `Actuators`  · `Sensors` · · `Arduino IDE`· `ThingSpeak`
 
 ---
