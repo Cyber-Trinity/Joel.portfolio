@@ -634,7 +634,7 @@ input[type='checkbox'] {
 	.header {
 		/* background-position: center top; */
 		/* swap to a mobile-optimized image */
-		background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background-mobile.jpg') center right/20% center no-repeat;
+		background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background-mobile.jpg') center top no-repeat;
 	}
 }
 
