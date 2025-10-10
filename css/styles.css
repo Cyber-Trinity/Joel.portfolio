@@ -595,11 +595,22 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	/* use the header image; prefer the right side of the photo as focal point (subject on right)
-	   save your provided image as images/header-background.jpg to replace the current image */
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center right/20% center no-repeat;
-	background-size: cover;
 	text-align: center;
+
+/* Desktop version of header background image */
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url('../images/header-background.jpg');
+	background-position: right center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* 🌐 Mobile version: shift focus slightly left */
+@media (max-width: 800px) {
+	.header {
+		background-position: 80% top;;
+	}
 }
 
 .header .h1-large {
@@ -629,14 +640,7 @@ input[type='checkbox'] {
 	margin-right: 0.375rem;
 }
 
-/* Small screens: bias the image to show more of the top/center (prevents cutting off head) */
-@media (max-width: 768px) {
-	.header {
-		/* background-position: center top; */
-		/* swap to a mobile-optimized image */
-		background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background-mobile.jpg') center top no-repeat;
-	}
-}
+
 
 /* increase a bit on wide screens for impact */
 @media (min-width: 1400px) {
