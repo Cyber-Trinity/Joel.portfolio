@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-
+    // View more button functionality
     document.addEventListener("DOMContentLoaded", function() {
         const viewMoreButton = document.getElementById("view-more");
         const hiddenProjects = document.querySelectorAll(".project-item.hidden");
@@ -245,6 +245,22 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
         }
     });
 
+    // Disable project to scroll on mobile when clicking the Projects link
+    function isMobile() {
+        return window.innerWidth <= 800; // or your breakpoint
+      }
+      
+      const projectsLink = document.querySelector('.nav-link.dropdown-toggle');
+      
+      projectsLink.addEventListener('click', function (e) {
+        if (isMobile()) {
+          e.preventDefault(); // prevent scrolling
+          // toggle the dropdown menu manually
+          const dropdownMenu = this.nextElementSibling;
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+      
 
 	/* Removes Long Focus On Buttons */
 	$(".button, a, button").mouseup(function() {

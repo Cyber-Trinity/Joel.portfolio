@@ -500,6 +500,8 @@ input[type='checkbox'] {
 	color: #9c9ead;
 }
 
+
+
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
@@ -669,10 +671,11 @@ input[type='checkbox'] {
 #services {
 	background-color: #f8fafc;
 	/* light theme */
+	padding-top: 120px;
 	color: #0a192f;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 #services .h2-heading {
@@ -772,6 +775,7 @@ input[type='checkbox'] {
 
 /* Split Container */
 .split {
+	padding-top: 55px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
