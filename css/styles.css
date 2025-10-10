@@ -658,14 +658,14 @@ input[type='checkbox'] {
 		text-align: center;
 		height: 100vh;
 		/* make sure the background covers full screen */
-		padding-bottom: 3rem;
+		padding-bottom: 1rem;
 		/* small gap at bottom */
 	}
 
 	.text-container .h1-large {
-		font-size: 2rem;
+		font-size: 1.7rem;
 		line-height: 1.3;
-		margin-bottom: 3rem;
+		margin-bottom: 1rem;
 		/* distance from bottom of screen */
 		width: 90%;
 		margin-left: auto;
