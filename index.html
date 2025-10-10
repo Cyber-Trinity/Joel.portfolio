@@ -5,30 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description">
-    <meta name="author" content="Your name">
+    <meta name="description" content="Yaovi Joel Djatassiba portfolio showcasing expertise in Cybersecurity, Data Analytics, and IoT. Building smart, secure, and data-driven systems for real-world challenges.">
+    <meta name="author" content="djatassiba">
+    <meta name="keywords" content="Yaovi, Joel, Djatassiba, Data Analytics, IoT, IoT Developer, Data Analyst, IT Specialist, Smart Systems, Secure Systems, Technology Portfolio, portfolio, cybersecurity">
+
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    <meta property="og:site_name" content="Joel Djatassiba Portfolio" /> <!-- website name -->
+    <meta property="og:site" content="https://your-portfolio-url.com/" /> <!-- website link -->
+    <meta property="og:title" content="Joel Djatassiba | Cybersecurity, Data Analytics & IoT Portfolio" />
+    <!-- title shown in the shared post -->
+    <meta property="og:description"
+        content="Explore Joel Djatassiba's portfolio showcasing projects in Cybersecurity, Data Analytics, and IoT." />
+    <!-- description shown in the shared post -->
+    <meta property="og:image" content="https://your-portfolio-url.com/assets/images/header-background.jpg" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="https://your-portfolio-url.com/" /> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    
 
     <!-- Webpage Title -->
-    <title>Mark Webpage Title</title>
+    <title>Joel Djatassiba Portfolio</title>
     
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Display font for navbar brand -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&display=swap" rel="stylesheet">
+    <!-- Clear, modern display font for the navbar name (readable at large sizes) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 	
-	<!-- Favicon  -->
+    <!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -37,10 +52,10 @@
         <div class="container">
             
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
+            <a class="navbar-brand logo-image" href="index.html">
+                <img src="images/favicon.png" alt="Site logo">
+                <span class="brand-text"><span class="given">Yaovi Joel</span> <span class="family">DJATASSIBA</span></span>
+            </a>
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -58,13 +73,13 @@
                         <a class="nav-link page-scroll" href="#services">Services</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
+                            <a class="dropdown-item page-scroll" href="#projects?filter=data-analytics">Data Analysis</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
+                            <a class="dropdown-item page-scroll" href="#projects?filter=cybersecurity">Cybersecurity</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+                            <a class="dropdown-item page-scroll" href="#projects?filter=iot">Internet of Things</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -73,15 +88,15 @@
                 </ul>
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://www.linkedin.com/in/joeldjatassiba/" target="_blank" rel="noopener">
                             <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            <i class="fab fa-linkedin-in fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://github.com/Cyber-Trinity" target="_blank" rel="noopener">
                             <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
+                            <i class="fab fa-github fa-stack-1x"></i>
                         </a>
                     </span>
                 </span>
@@ -92,12 +107,12 @@
 
 
     <!-- Header -->
-    <header id="header" class="header">
+    <header id="header" class="header" style="background-image: url('images/header-background.jpg?v=20251008T000000'); background-size: cover; background-position: right center;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large">I love to create beautiful and efficient websites</h1>
+                        <h1 class="h1-large">The future belongs to <span style="color: darkgoldenrod;">TECHnologies</span> that can think, connect, and defend</h1>
                         <a class="btn-solid-lg page-scroll" href="#about">Discover</a>
                         <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
                     </div> <!-- end of text-container -->
@@ -114,28 +129,34 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="text-container first">
-                        <h2>Hi there I'm Mark,</h2>
-                        <p>And I love to create beautiful and efficient websites for my customers. I love going through the entire process with the customer from concept, to design and then development and launch</p>
+                        <h2>I'm Joel,</h2>
+                        <p>
+                            an aspiring IT specialist passionate about integrating <span class="skill">Data Analytics</span>, <span class="skill">Cybersecurity</span>, and the
+                            <span class="skill">Internet of Things</span> to build smart
+                            and secure systems that promote sustainability and innovation.
+                        </p>
+                        <p>
+                            I enjoy working on projects that combine technology, creativity, and security to empower people and organizations
+                        </p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-container second">
-                        <div class="time">2019 - PRESENT</div>
-                        <h6>Freelance Web Developer</h6>
-                        <p>Working happily on my own web projects</p>
-                        <div class="time">2018 - 2019</div>
-                        <h6>Lead Web Developer</h6>
-                        <p>Beautiful project for a major digital agency</p>
+                        <h3>Education</h3>
+                        <div class="time">Aug. 2021 - Jun. 2025</div>
+                        <h6>Jain University</h6>
+                        <p>B.Tech Computer Science & Engineering</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-container third">
-                        <div class="time">2017 - 2018</div>
-                        <h6>Senior Web Designer</h6>
-                        <p>Inhouse web designer for ecommerce firm</p>
-                        <div class="time">2016 - 2017</div>
-                        <h6>Junior Web Designer</h6>
-                        <p>Junior web designer for small web agency</p>
+                        <h3>Experience</h3>
+                        <div class="time">Mar. 2024 - Sep. 202024</div>
+                        <h6>Innodata</h6>
+                        <p>AI Model Evaluator Intern</p>
+                        <div class="time">Jun.  2023 - Dec. 2023</div>
+                        <h6>Hazzten EduTech</h6>
+                        <p>Subject Matter Expert Intern</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -150,29 +171,43 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Offered services</h2>
-                    <p class="p-heading">Web design and development have been my bread and butter for more than 5 years. During that time I've discovered that I can help startups and companies with the following services</p>
+                    <p class="p-heading">
+                        I help individuals, startups, and organizations design and build secure, intelligent systems that improve productivity,
+                        optimize workflows, and enable smarter business decisions.
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-4">
                     <div class="text-box">
-                        <i class="far fa-gem"></i>
-                        <h4>DESIGN</h4>
-                        <p>Successful online projects start with good design. It establishes a solid foundation for future development and allows for long term growth</p>
+                        <i class="fas fa-chart-pie"></i>
+                        <h4>Data Analytics & insights</h4>
+                        <p>
+                            I collect, clean, and analyze data, then visualize it to uncover patterns, track performance, and
+                            provide insights that support informed decision-making.
+                            
+                        </p>
+                        <span class="tagline">Turning data into insights.</span>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-box">
-                        <i class="fas fa-code"></i>
-                        <h4>DEVELOPMENT</h4>
-                        <p>I can code my own designs or even use the customer's design as base. My focus is to generate clean code that's well structured for reliability</p>
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Cybersecurity Solutions</h4>
+                        <p>
+                            I help secure networks, web applications, and IoT devices by identifying vulnerabilities, and implementing best practices,
+                            to protect systems against evolving cyber threats.
+                        </p>
+                        <span class="tagline">Building safe and trusted systems.</span>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-box">
-                        <i class="fas fa-tv"></i>
-                        <h4>BASIC SEO</h4>
-                        <p>i can setup your project to use basic SEO principles which will push your project to the first page on search engines and save you ads money</p>
+                        <i class="fas fa-microchip"></i>
+                        <h4>IoT Development</h4>
+                        <p>
+                            I develop IoT systems that connect sensors, devices, and users in a secure ecosystem, automating processes and providing real-time visibility across operations.
+                        </p>
+                        <span class="tagline">Connecting the world intelligently.</span>
                     </div> <!-- end of text-box -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -180,165 +215,213 @@
     </div> <!-- end of basic-2 -->
     <!-- end of services -->
 
-
     <!-- Details -->
-	<div class="split">
-		<div class="area-1">
-		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
-            <div class="container">    
+    <div class="split">
+        <div class="area-1"> </div>
+        <!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
+        <div class="area-2 bg-gray">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">     
-                        
-                        <!-- Text Container -->
+                    <div class="col-lg-12"> <!-- Text Container -->
                         <div class="text-container">
-                            <h2>Why Work With Me</h2>
-                            <p>I am a great communicator and love to invest the necessary time to understand the customer's problem very well</p>
-                            <h5>DESIGN TOOLS</h5>
-                            <p>My favorite design tools are Photoshop and Illustrator but I can create designs in Figma, Sketch and Adobe XD too</p>
-                            <h5>DEVELOPMENT SKILLS</h5>
-                            <p>I am familiar and work on a daily basis with HTML, CSS, JavaScript, Bootstrap and other modern frameworks</p>
-                            
-                            <div class="icons-container">
-                                <img src="images/details-icon-photoshop.png" alt="alternative">
-                                <img src="images/details-icon-illustrator.png" alt="alternative">
-                                <img src="images/details-icon-html.png" alt="alternative">
-                                <img src="images/details-icon-css.png" alt="alternative">
-                                <img src="images/details-icon-bootstrap.png" alt="alternative">
-                                <img src="images/details-icon-javascript.png" alt="alternative">
-                            </div> <!-- end of icons-container -->
-                        </div> <!-- end of text-container -->
-                        <!-- end of text container -->
-
+                            <h2>Why Choose Me</h2>
+                            <p>
+                                I take time to understand every project and the people behind it. For me, technology is not
+                                just about building systems. It's about solving problems in a secure and intelligent
+                                way. I'm passionate about building sustainable solutions that make a real difference in people's lives. 
+                            </p>
+                            <h5>Languages I Speak</h5>
+                            <p>I am fluent in <span style="font-weight: bold;">English</span> and <span
+                                    style="font-weight: bold;">French</span>, and I can hold basic conversations in
+                                Spanish.My multilingual ability allows me to communicate effectively and collaborate
+                                seamlessly with diverse teams and international partners.</p>
+                            <h5>Development Skills</h5>
+                            <p>
+                                I use Python, Kali Linux, microcontrollers, modern frameworks and tools to build reliable and efficient projects. I turn ideas
+                                into sustainable solutions. I analyze and visualize data with Python, Power BI, Pandas, and Matplotlib, and secure systems
+                                by testing networks with Kali Linux, Wireshark, and penetration tools. I also design, connect sensors and program
+                                microcontrollers to build IoT systems.
+                            </p>
+                            <div class="icons-container"> <img src="images/details-icon-python.webp" alt="alternative"> <img
+                                    src="images/details-icon-power-bi.webp" alt="alternative"> <img
+                                    src="images/details-icon-linux.webp" alt="alternative"> <img
+                                    src="images/details-icon-metasploit.webp" alt="alternative"> <img
+                                    src="images/details-icon-arduino.webp" alt="alternative"> <img
+                                    src="images/details-icon-sensors.webp" alt="alternative"> </div>
+                            <!-- end of icons-container -->
+                        </div> <!-- end of text-container --> <!-- end of text container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-		</div> <!-- end of area-2 -->
-    </div> <!-- end of split -->
-    <!-- end of details -->
-
+        </div> <!-- end of area-2 -->
+    </div> <!-- end of split --> <!-- end of details -->
 
     <!-- Projects -->
     <div id="projects" class="basic-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Delivered projects</h2>
-                    <p class="p-heading">Listed below are some of the most representative projects I've worked on. They range from basic web design for presentation sites to advanced web development for online shops</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+                    <h2 class="h2-heading">Delivered Projects</h2>
+                    <p class="p-heading">Here are some of my key projects, reflecting my passion for building intelligent,
+                        secure, and data-driven solutions.</p>
+                </div>
+            </div>
+            <!-- Filter Buttons -->
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Jumbotron, <strong>Project:</strong> web design for their corporate websites and landing pages for marketing campaigns <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Carsrepo, <strong>Project:</strong> designed and developed modern platform for purchasing second hand cars online <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Truevideo, <strong>Project:</strong> created a custom video editing and upload web app for this awesome team <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Evolosim, <strong>Project:</strong> complete redesign of their corporate website and platform update for their online shop <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
-    <!-- end of projects -->
-
-
-    <!-- Works -->
-    <div class="basic-4">
-        <div class="container">
+                    <div class="filter-buttons text-center mb-5">
+                        <button class="btn active" data-filter="all">All</button>
+                        <button class="btn" data-filter="data-analytics">Data Analytics</button>
+                        <button class="btn" data-filter="cybersecurity">Cybersecurity</button>
+                        <button class="btn" data-filter="iot">Internet of Things</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projects Grid -->
+            <div class="row" id="projects-grid">
+                <!-- Project 1: Data Analytics -->
+                <div class="col-lg-4 project-item" data-category="data-analytics">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/project-1.webp" alt="Project 1">
+                        </div>
+                        <div class="card-content">
+                            <h3>Crime analysis in Los Angeles</h3>
+                            <p>
+                                Analysis of Los Angeles crime data using Python to identify key patterns and trends. The analysis provided actionable
+                                insights for local law enforcement, helping to inform resource allocation and crime prevention strategies.
+                            </p>
+                            <div class="card-footer">
+                                <a href="" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Cybersecurity -->
+                <div class="col-lg-4 project-item" data-category="cybersecurity">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/project-2.webp" alt="Project 2">
+                        </div>
+                        <div class="card-content">
+                            <h3>Intelligent Threat Extractor</h3>
+                            <p>
+                                A script that automates the extraction of threat intelligence from cybersecurity reports. It identifies
+                                IoCs, TTPs, malware names, threat actors, and targeted entities, saving the extracted data in JSON format for further analysis.
+                            </p>
+                            <div class="card-footer">
+                                <a href="#" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: IoT -->
+                <div class="col-lg-4 project-item" data-category="iot">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/project-3.webp" alt="Project 3">
+                        </div>
+                        <div class="card-content">
+                            <h3>Smart Water Management System</h3>
+                            <p>
+                                An IoT-based system for monitoring and managing water resources efficiently. The solution
+                                used sensors to track water usage and detect anomalies, optimizing water distribution and conservation.
+                            </p>
+                            <div class="card-footer">
+                                <a href="#" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4: IoT -->
+                <div class="col-lg-4 project-item" data-category="iot">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/project-4.webp" alt="Project 4">
+                        </div>
+                        <div class="card-content">
+                            <h3>Automatic Obstacle Avoidance Car</h3>
+                            <p>Autonomous, IoT-powered vehicle, integrating ultrasonic sensors to create a robust
+                            obstacle-avoidance system.</p>
+                            <div class="card-footer">
+                                <a href="#" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5: Cybersecurity -->
+                <div class="col-lg-4 project-item" data-category="cybersecurity">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/coming.webp" alt="Project 5">
+                        </div>
+                        <div class="card-content">
+                            <h3>Coming Soon</h3>
+                            <p>This project description is coming soon. Stay tuned!</p>
+                            <div class="card-footer">
+                                <a href="#" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6: IoT -->
+                <div class="col-lg-4 project-item" data-category="iot">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/project-6.webp" alt="Project 6">
+                        </div>
+                        <div class="card-content">
+                            <h3>ParcelVault, The Smart IoT Box for Secure Package Delivery</h3>
+                            <p>A smart box for secure package delivery designed to address
+                            critical challenges in last-mile logistics, including package theft, missed deliveries, and environmental damage.</p>
+                            <div class="card-footer">
+                                <a href="#" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Projects (Hidden by Default) -->
+                <div class="col-lg-4 project-item hidden" data-category="data-analytics">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/coming.webp" alt="Project 7">
+                        </div>
+                        <div class="card-content">
+                            <h3>Coming Soon</h3>
+                            <p>This project description is coming soon. Stay tuned!</p>
+                            <div class="card-footer">
+                                <a href="#" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 project-item hidden" data-category="cybersecurity">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/coming.webp" alt="Project 8">
+                        </div>
+                        <div class="card-content">
+                            <h3>Coming Soon</h3>
+                            <p>This project description is coming soon. Stay tuned!</p>
+                            <div class="card-footer">
+                                <a href="#" class="details-btn">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- View More Button -->
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/work-1.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Zigoland, <strong>Project:</strong> started a new website from ground up for a new product <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/work-2.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Visodream, <strong>Project:</strong> developed a new forum for the Visodream community <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/work-3.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Primoday, <strong>Project:</strong> complete redesign of their corporate website and platform <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/work-4.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Nextlite, <strong>Project:</strong> created a custom video editing and upload web app <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/work-5.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Syncnow, <strong>Project:</strong> web design for their corporate websites and landing pages <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-4">
-                    <div class="text-container">
-                        <div class="image-container">
-                            <a href="project.html">
-                                <img class="img-fluid" src="images/work-6.jpg" alt="alternative">
-                            </a>
-                        </div> <!-- end of image-container -->
-                        <p><strong>For:</strong> Shifter, <strong>Project:</strong> started a new website from ground up for a new product <a class="blue" href="project.html">details</a></p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-4 -->
-    <!-- end of works -->
+                <div class="col-lg-12 text-center mt-4">
+                    <button id="view-more" class="btn-view-more">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
 
-
+    <!-- Hidden section until I have testimonies-->
     <!-- Testimonials -->
     <div class="cards-1">
         <div class="container">
@@ -358,7 +441,7 @@
                                 <img src="images/testimonial-1.jpg" alt="alternative">
                                 <div class="text">
                                     <div class="testimonial-author">Samantha Bloom</div>
-                                    <div class="occupation">Team Leader - Syncnow</div>
+                                    <div class="occupation">Team Leader - innodata</div>
                                 </div> <!-- end of text -->
                             </div> <!-- end of testimonial-details -->
                         </div>
@@ -373,7 +456,7 @@
                                 <img src="images/testimonial-2.jpg" alt="alternative">
                                 <div class="text">
                                     <div class="testimonial-author">John Rowling</div>
-                                    <div class="occupation">Marketing Manager - Nexlite</div>
+                                    <div class="occupation">Marketing Manager - innodata</div>
                                 </div> <!-- end of text -->
                             </div> <!-- end of testimonial-details -->
                         </div>
@@ -383,7 +466,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-body">
-                            <p class="testimonial-text">“So glad we started working with Mark. We've used many times his design and development skills for our inhouse online projects”</p>
+                            <p class="testimonial-text">“So glad we started working with Mark. We've used many times his design and development skills for our house online projects”</p>
                             <div class="details">
                                 <img src="images/testimonial-3.jpg" alt="alternative">
                                 <div class="text">
@@ -428,60 +511,67 @@
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How can I contact you and quickly get a quote for my online project?
+                                    What is Cyber-Trinity?
                                 </button>
                             </div>
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    Cyber-Trinity is my personal tech brand that represents the three fields I'm passionate about: Cybersecurity, Data
+                                    Analytics, and the Internet of Things (IoT). It reflects how I combine these domains to build smart, secure, and
+                                    data-driven systems.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Do you create designs from the ground up or you are using themes?
+                                    What kind of projects do you work on?
                                 </button>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    I work on projects that integrate intelligent systems with data and security. Some examples include smart water
+                                    management systems, IoT-based automation, data visualization dashboards, and cybersecurity awareness or analysis
+                                    projects.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Will I receive any included maintenance or warranty after project delivery?
+                                    What's your approach when working on a new project?
                                 </button>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    I start by understanding the problem and the user's needs. Then I design a practical solution, develop and test it
+                                    carefully, and make sure it's secure, efficient, and scalable before deployment. I also focus on clear communication and collaboration throughout the process.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFour">
                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    If something goes wrong with the project can I have my money back?
+                                    What technologies do you use?
                                 </button>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    I use a mix of tools and frameworks across my three domains, such as Python, SQL, data analytics libraries like Pandas and Matplotlib, Networking tools, Kali Linux, IoT sensors
+                                    and microcontrollers. I choose the best technology based on the project's specific needs.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFive">
                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    What's your preferred method of payment and do you need an advance?
+                                    What motivates you to work in tech?
                                 </button>
                             </div>
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form of by messaging me on my social media accounts. For a fast quote make sure your provide many project details
+                                    Technology gives me a way to address challenges and make life easier for people. I'm motivated by the idea of using
+                                    smart and secure systems to create a positive impact.
                                 </div>
                             </div>
                         </div>
@@ -500,7 +590,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Contact details</h2>
-                    <p class="p-heading">For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me your message using the following email <a class="blue no-line" href="#your-link">contact@domain.com</a></p>
+                    <p class="p-heading">
+                        For any project inquiries or additional information, feel free to get in touch. The quickest way to reach me is by
+                        filling out the form below.
+                    </p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -518,7 +611,7 @@
                         </div>
                         <div class="form-group">
                             <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Project details</label>
+                            <label class="label-control" for="cmessage">Message</label>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="form-control-submit-button">Submit</button>
@@ -540,33 +633,27 @@
                 <div class="col-lg-12">
                     <div class="social-container">
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.linkedin.com/in/joeldjatassiba/" target="_blank" rel="noopener">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x" aria-hidden="true"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://github.com/Cyber-Trinity" target="_blank" rel="noopener">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
+                                <i class="fab fa-github fa-stack-1x" aria-hidden="true"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://orcid.org/0009-0007-8606-3780" target="_blank" rel="noopener" aria-label="ORCID profile">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                <img src="images/orcid.svg" class="custom-svg-icon" alt="ORCID" />
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.researchgate.net/profile/Yaovi-Joel-Djatassiba?ev=hdr_xprf" target="_blank" rel="noopener">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-youtube fa-stack-1x"></i>
+                                <i class="fas fa-graduation-cap fa-stack-1x" aria-hidden="true"></i>
                             </a>
                         </span>
                     </div> <!-- end of social-container -->
@@ -582,19 +669,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a class="no-line" href="#your-link">Your name</a></p>
+                    <p class="p-small">Copyright © 2025 Cyber-Trinity — Built with passion for Security, Data, and IoT.</p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small">Distributed By <a class="no-line" href="https://themewagon.com/">Themewagon</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-        
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     

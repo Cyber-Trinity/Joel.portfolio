@@ -56,6 +56,182 @@
 		}
 	});
 	
+    // Animate service cards on scroll
+    document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".basic-2 .text-box");
+    
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting){
+                        entry.target.style.transform = "translateY(0)";
+                        entry.target.style.opacity = "1";
+                    }
+                });
+            },
+            { threshold: 0.2 }
+        );
+    
+        cards.forEach(card => observer.observe(card));
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const filterButtons = document.querySelectorAll(".filter-buttons .btn");
+    const projectItems = document.querySelectorAll(".project-item");
+
+    // Function to filter projects
+    function filterProjects(category) {
+        filterButtons.forEach(btn => btn.classList.remove("active"));
+        const activeButton = document.querySelector(`.filter-buttons .btn[data-filter="${category}"]`);
+        if (activeButton) {
+            activeButton.classList.add("active");
+        }
+
+        projectItems.forEach(item => {
+            if (category === "all" || item.getAttribute("data-category") === category) {
+                item.classList.remove("hidden");
+            } else {
+                item.classList.add("hidden");
+            }
+        });
+    }
+
+    // Handle button clicks
+    filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const filterValue = button.getAttribute("data-filter");
+            filterProjects(filterValue);
+        });
+    });
+
+    // Parse URL and filter projects on page load
+    const urlParams = new URLSearchParams(window.location.search);
+    const filterParam = urlParams.get("filter");
+
+    if (filterParam) {
+        filterProjects(filterParam);
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const filterButtons = document.querySelectorAll(".filter-buttons .btn");
+    const projectItems = document.querySelectorAll(".project-item");
+
+    // Function to filter projects
+    function filterProjects(category) {
+        filterButtons.forEach(btn => btn.classList.remove("active"));
+        const activeButton = document.querySelector(`.filter-buttons .btn[data-filter="${category}"]`);
+        if (activeButton) {
+            activeButton.classList.add("active");
+        }
+
+        projectItems.forEach(item => {
+            if (category === "all" || item.getAttribute("data-category") === category) {
+                item.classList.remove("hidden");
+            } else {
+                item.classList.add("hidden");
+            }
+        });
+    }
+
+    // Handle button clicks
+    filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const filterValue = button.getAttribute("data-filter");
+            filterProjects(filterValue);
+        });
+    });
+
+    // Parse URL and filter projects on page load
+    const urlParams = new URLSearchParams(window.location.search);
+    const filterParam = urlParams.get("filter");
+
+    if (filterParam) {
+        filterProjects(filterParam);
+    }
+
+    // Handle click events on navbar links
+    document.querySelectorAll('a[href^="#projects"]').forEach(link => {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            const href = this.getAttribute("href");
+            const [hash, query] = href.split("?");
+            const section = document.querySelector(hash);
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+            }
+
+            // Parse the filter parameter from the link
+            const params = new URLSearchParams(query);
+            const filterValue = params.get("filter");
+            if (filterValue) {
+                history.pushState(null, null, href);
+                filterProjects(filterValue);
+            } else {
+                history.pushState(null, null, hash);
+                filterProjects("all");
+            }
+        });
+    });
+});
+
+
+  
+    // Project Filtering
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterButtons = document.querySelectorAll(".filter-buttons .btn");
+        const projectItems = document.querySelectorAll(".project-item");
+    
+        filterButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove("active"));
+                // Add active class to clicked button
+                button.classList.add("active");
+    
+                const filterValue = button.getAttribute("data-filter");
+    
+                projectItems.forEach(item => {
+                    if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
+                        item.classList.remove("hidden");
+                    } else {
+                        item.classList.add("hidden");
+                    }
+                });
+            });
+        });
+    });
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const viewMoreButton = document.getElementById("view-more");
+        const hiddenProjects = document.querySelectorAll(".project-item.hidden");
+    
+        viewMoreButton.addEventListener("click", function() {
+            hiddenProjects.forEach(project => {
+                project.classList.remove("hidden");
+            });
+            viewMoreButton.style.display = "none";
+        });
+    });
+    
+    
+
+    // Contact Form - Open user's email client with prefilled message
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // Prevent default form submission
+
+    // Get form values
+    const name = document.getElementById("cname").value;
+    const email = document.getElementById("cemail").value;
+    const message = document.getElementById("cmessage").value;
+
+    // Create mailto link
+    const mailtoLink = `mailto:youremail@example.com?subject=${encodeURIComponent("Message from " + name)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
+
+    // Open default email client
+    window.location.href = mailtoLink;
+});
 
     /* Back To Top Button */
     // create the back to top button
