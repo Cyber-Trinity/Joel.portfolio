@@ -3,7 +3,19 @@
 ### 🚀 Overview
 Welcome to my unified tech portfolio that brings together my passion for **Cybersecurity**, **Data Analytics**, and the **Internet of Things (IoT)**.
 
-This portfolio highlights how I combine these three domains to create **secure**, **data-driven**, and **intelligent systems** that address real-world challenges.
+My portfolio highlights how I combine these three domains to create **secure**, **data-driven**, and **intelligent systems** that address global challenges.
+
+---
+
+## 📊 Data Analytics
+**Focus Areas:**
+- Data Cleaning and Visualization  
+- Python for Data Analysis and Machine Learning  
+- Statistical and Predictive Modeling  
+
+**Highlighted Projects:**
+- 🎬 **Netflix Data Analysis** – Explored viewing trends and recommendation patterns.  
+- 🏙️ **Crime Analysis in Los Angeles** – Identified hotspots and correlations using geospatial analytics.  
 
 ---
 
@@ -17,18 +29,6 @@ This portfolio highlights how I combine these three domains to create **secure**
 **Highlighted Projects:**
 - 🔒 **IoT Security Monitoring System** – Detects unauthorized access to connected devices using packet inspection.  
 - 🕵️ **Great AppSec Hackathon 2024** – Qualified in the CTF screening round.   
-
----
-
-## 📊 Data Analytics
-**Focus Areas:**
-- Data Cleaning and Visualization  
-- Python for Data Analysis and Machine Learning  
-- Statistical and Predictive Modeling  
-
-**Highlighted Projects:**
-- 🎬 **Netflix Data Analysis** – Explored viewing trends and recommendation patterns.  
-- 🏙️ **Crime Analysis in Los Angeles** – Identified hotspots and correlations using geospatial analytics.  
 
 ---
 
@@ -47,13 +47,16 @@ This portfolio highlights how I combine these three domains to create **secure**
 
 ## 🧩 Tech Stack
 **Languages & Tools:**  
-`Python` · `C` · `C++` · `Linux` · `Arduino` · `AWS` · `Cisco Packet Tracer` · `Wireshark`  
+`Python` · `C` · `C++` · `Java` · `Arduino` · `SQL`· `HTML/CSS` · `Git` · `Shell`  
 
 **Data Tools:**  
-`Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Jupyter`  
+`Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Jupyter` · `Power BI` · `Excel`
 
 **Cyber Tools:**  
-`Nmap` · `Burp Suite` · `Metasploit` · `Kali Linux`  
+`Nmap` · `Burp Suite` · `Metasploit`· `Wireshark` · `Cisco Packet Tracer`· `Kali Linux`
+
+**Embedded Systems Tools:**
+`Arduino` · `ESP32 / ESP8266` · `MQTT` · `Actuators`  · `Sensors` · · `Arduino IDE`· `ThingSpeak`
 
 ---
 
@@ -75,10 +78,11 @@ Hi, I’m **Joel**, an aspiring IT specialist passionate about integrating **IoT
 ---
 
 ## 🔗 Connect with Me
-- 📧 Email:   jdjatassiba@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/joeldjatassiba/
-- 🧠 GitHub:   https://github.com/Cyber-Trinity
+- 📧 Email:     jdjatassiba@gmail.com
+- 🌐 Website:   https://cyber-trinity.github.io/joeldjatassiba/
+- 💼 LinkedIn:  https://www.linkedin.com/in/joeldjatassiba/
+- 🧠 GitHub:    https://github.com/Cyber-Trinity
 
 ---
 
-**© 2025 CyberTrinity** — Built with passion for Security, Data, and IoT.
+**Copyright © 2025 Cyber-Trinity**
