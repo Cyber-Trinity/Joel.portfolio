@@ -374,7 +374,7 @@ input[type='checkbox'] {
 .navbar {
 	background-color: #24262a;
 	font-weight: 600;
-	font-size: 0.875rem;
+	font-size: 1.2rem;
 	line-height: 0.875rem;
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
@@ -443,7 +443,7 @@ input[type='checkbox'] {
 .navbar .logo-text {
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 1.875rem;
+	font-size: 2rem;
 	line-height: 1rem;
 	text-decoration: none;
 }
@@ -466,8 +466,8 @@ input[type='checkbox'] {
 }
 
 .fa-stack img {
-	width: 18px;
-	height: 18px;
+	width: 20px;
+	height: 20px;
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
@@ -496,6 +496,7 @@ input[type='checkbox'] {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
+	font-size: 1.3rem;
 	color: #9c9ead;
 }
 
@@ -526,7 +527,7 @@ input[type='checkbox'] {
 	padding-bottom: 0.5rem;
 	color: #ffffff;
 	font-weight: 600;
-	font-size: 0.875rem;
+	font-size: 1rem;
 	line-height: 0.875rem;
 	text-decoration: none;
 }
@@ -548,7 +549,8 @@ input[type='checkbox'] {
 .navbar .fa-stack {
 	width: 2em;
 	margin-right: 0.25rem;
-	font-size: 0.75rem;
+	font-size: 1.2rem;
+	font-weight: lighter;
 }
 
 .navbar .fa-stack-2x {
@@ -859,16 +861,27 @@ input[type='checkbox'] {
 /*****************/
 
 /* Filter Buttons */
+.filter-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* center buttons */
+	gap: 10px;
+	/* spacing between buttons */
+}
+
 .filter-buttons .btn {
 	background: #f8f9fa;
 	border: none;
 	color: #333;
-	padding: 10px 20px;
-	margin: 0 5px;
 	border-radius: 25px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	font-weight: 500;
+
+	width: auto;
+	/* default for desktop */
+	text-align: center;
 }
 
 .filter-buttons .btn.active {
@@ -879,6 +892,20 @@ input[type='checkbox'] {
 .filter-buttons .btn:hover {
 	background: #0b36a8;
 	color: white;
+}
+
+/* 🌐 Mobile (≤800px) */
+@media (max-width: 800px) {
+	.filter-buttons .btn {
+		flex: 0 0 40%;
+		/* two buttons per row */
+		margin: 5px 2.5%;
+		/* horizontal spacing */
+		font-size: clamp(12px, 3vw, 16px);
+		/* adaptive text */
+		padding: clamp(8px, 2vw, 12px) clamp(10px, 3vw, 20px);
+		/* adaptive padding */
+	}
 }
 
 /* Project Items */
